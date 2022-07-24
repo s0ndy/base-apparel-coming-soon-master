@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+main {
+    padding: 50px 130px 130px 200px;
+}
+
+main img {
+    padding-bottom: 150px;
+}
+
+main h1 {
+    color: hsl(0, 6%, 24%);
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 20px;
+}
+
+main span {
+    color: hsl(0, 36%, 70%);
+    font-size: inherit;
+    font-weight: 300;
+}
+
+main p {
+    color: hsl(0, 36%, 70%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+main input {
+    width: 500px;
+    height: 60px;
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 40px;
+    padding-left: 20px;
+}
+
+.button {
+    position: relative;
+    top: -60px;
+    left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 60px;
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border-radius: 40px;
+}
+
+.error {
+    display: none;
+    position: relative;
+    top: -102px;
+    left: 350px;
+}
+
+::placeholder {
+    color: hsl(0, 36%, 70%);
+}
+
+.text {
+    position: relative;
+    bottom: 60px;
+    right: 10px;
+}
+
+.photo img {
+    height: 100%;
+}
+
+/* @media only screen and (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        overflow-y: scroll;
+    }
+
+    main {
+        padding: 5%;
+    }
+
+    .photo {
+        background-image: url(/images/hero-mobile.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+    }
+
+    .photo img {
+        display: none;
+    }
+} */
+
+
